@@ -61,10 +61,10 @@ plt.errorbar(dist_mB, T1, s_T1, fmt='o', ls='none', label='dataT1', color= "Dark
 plt.errorbar(dist_mB, T2, s_T2, fmt='o', ls='none', label='dataT2', color= "Coral") 
 
 plt.scatter(dist_mB, T1)
-plt.plot(dist_mB, T1)
+plt.plot(dist_mB, T1, color= "CornflowerBlue")
 
 plt.scatter(dist_mB, T2)
-plt.plot(dist_mB, T2)
+plt.plot(dist_mB, T2, color= "SandyBrown")
 
 plt.xlim(0.15, 0.5)
 plt.ylim(1.7, 2.2)
