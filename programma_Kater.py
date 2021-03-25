@@ -60,8 +60,6 @@ s_T2 = np.array([
 plt.errorbar(dist_mB, T1, s_T1, fmt='o', ls='none', label='dataT1', color= "DarkSlateBlue") #parametri: array_x, array_y, errore_y, errore_x 
 plt.errorbar(dist_mB, T2, s_T2, fmt='o', ls='none', label='dataT2', color= "Coral") 
 
-
-
 plt.scatter(dist_mB, T1)
 plt.plot(dist_mB, T1)
 
@@ -69,7 +67,7 @@ plt.scatter(dist_mB, T2)
 plt.plot(dist_mB, T2)
 
 plt.xlim(0.15, 0.5)
-plt.ylim(1.5, 2.5)
+plt.ylim(1.7, 2.2)
 
 
 plt.xlabel('distanza di mB dal centro (m)')
