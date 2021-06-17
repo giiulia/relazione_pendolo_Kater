@@ -1,5 +1,6 @@
 import numpy as np
 
+#distanze di mB dal coltello 2
 d1 = (99.4/2-np.array([20.3, 20.3, 20.4 ,20.3, 20.2]))/100 #in metri
 d2 = (99.4/2-np.array([26.2, 26.2, 26.2 ,26.1 ,26.3]))/100
 d3 = (99.4/2-np.array([32.9, 32.8, 32.9, 32.9, 32.9]))/100
@@ -31,5 +32,6 @@ L = [1.670, 1.668, 1.669, 1.669, 1.668] #in metri
 m_A = 1.000 #in kg
 m_B = 1.400 #in kg
 
-b = 11.5/100 #in m
-a = 133.7/100 #in m
+#misura di theta con le formule trigonometriche
+b = 11.5/100 #misura del cateto in m
+a = 133.7/100 #misura dell'ipotenusa in m
